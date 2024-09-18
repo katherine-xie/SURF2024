@@ -16,7 +16,7 @@ Tracks are drawn through ROOT's THelix class
 These files create a .root file that store the corrected signal distribution (and other histograms) in angular two-particle correlation analysis.
 The "simpleTwoParticleCorr.C" file performs the analysis for all two-particle pair combinations (with eta and multiplicity cut-offs). For the regular "twoParticleCorr.C" file, you can specify the parameters for a trigger and associate particle.
 
-### Instructiomns
+### Instructions
 
 1. Make sure datasets are stored in the .root format. Make sure branch names match up with the TTreeReaderValue references. For the two-particle correlation in the jet frame, the data should be stored in daughter branches.
 2. Make sure SURF_FUNCTIONS is installed in the correct directory.
@@ -24,3 +24,5 @@ The "simpleTwoParticleCorr.C" file performs the analysis for all two-particle pa
 4. Note: You may need to calculate the number of selected pseudoparticles particles for the background distribution manually due to datatype limits.
 5. Update the output file name and path.
 6. Run the macro. 
+
+Please email if you have any questions at kxie236@gmail.com
